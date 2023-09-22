@@ -13,29 +13,55 @@
     box-sizing: border-box;
 }
 
-body,{
-    background-color:#5f2c82 ;
+body,html{
     width: 100vw;
     height: 100vh;
+    background-color:#5f2c82;
 }
 
 main{
     position: relative;
+    width: 100vw;
+    height: 100vh;
 
+}
 
- }
-section#login{
-    position: absolute;
+.login{
+    display: block;
+    position: relative;
     top:50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    overflow: hidden;
+
     background-color: aliceblue;
-    width: 250px;
-    height: 500px;
+    width:375px;
+    height: 600px;
     border-radius: 20px;
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+
 }
 
-section#login >div#imagem{
-    background-color: #5f2c82 url(../imagens/pexels-bruno-thethe-1910236\ \(1\).jpg);
+.imagem{
+    background-image: url(../imagens/fundo.jpg);
+    background-size: cover;
+    background-position: right center;
+    display: block;
     height: 200px;
+    width: 375px;
+    border-radius: 20px 20px 0px 0px ;
+}
+
+.formulario{
+    padding: 10px;
+}
+
+.formulario >h1{
+    text-align: center;
+}
+
+.formulario >p{
+    font-size: 0.8em;
 }
