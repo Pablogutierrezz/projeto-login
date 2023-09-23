@@ -31,14 +31,13 @@ main{
     position: relative;
     top:50%; 
     left: 50%;
-    transform: translate(-50%,-50%);
     overflow: hidden;
 
     background-color: aliceblue;
     width:375px;
     height: 500px;
     border-radius: 20px;
-
+    transform: translate(-50%,-50%);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 
@@ -80,9 +79,9 @@ main{
     width:85%;
     height: 100%;
     border-radius: 5px 10px 10px 5px;
-    transform: translateY(-10px);
     border: 0px;
     text-align: center;
+    transform: translateY(-10px);
 }
 input:hover{
     background-color: #fbffff;
