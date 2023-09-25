@@ -7,7 +7,6 @@
 
 body,html{
     width: 100vw;
-    height: 100vh;
     background-color: darkgrey;
     background-image: url(../pexels-felix-mittermeier-355762.jpg);
     background-repeat: no-repeat;
@@ -48,13 +47,13 @@ main{
 
 .navegação > li{
 
-    display:inline-block;
+    display:inline;
     background-color: blue;
     width: 50px;   
     padding: 4px;
-    margin-top: 9px;
-    margin-left: 13px;
     border-radius: 5px;
+   
+   
 }
 
 .login{
