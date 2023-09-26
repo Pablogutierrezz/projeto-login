@@ -63,16 +63,21 @@ header{
 main{
     display: flex;
     height: 90vh;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 
 }
 
 .caixa{
-    display: flex;
     background-color: bisque;
     border: 1px solid black;
     width: 360px;
     height: 280px;
    
 }
+
+.usuario{
+    padding-bottom: 5px;
+}
+
+
